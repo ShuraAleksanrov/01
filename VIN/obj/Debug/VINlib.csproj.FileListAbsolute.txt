@@ -1,0 +1,6 @@
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\bin\Debug\VIN.dll
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\bin\Debug\VIN.pdb
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\obj\Debug\VINlib.csprojAssemblyReference.cache
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\obj\Debug\VINlib.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\obj\Debug\VIN.dll
+C:\Users\User\Documents\PeLLleHie\MainWS\VIN\obj\Debug\VIN.pdb
