@@ -1,0 +1,41 @@
+﻿<Window x:Class="MainWS.EditDriver"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainWS"
+        mc:Ignorable="d"
+        Title="EditDriver" Height="666.898" Width="270" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,10,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="lname" HorizontalAlignment="Left" Height="20" Margin="130,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,50,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="fname" HorizontalAlignment="Left" Height="20" Margin="130,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,90,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="mname" HorizontalAlignment="Left" Height="20" Margin="130,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,130,0,0" TextWrapping="Wrap" Text="Серия паспорта" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="ps" HorizontalAlignment="Left" Height="20" Margin="130,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,170,0,0" TextWrapping="Wrap" Text="Номер паспорта" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="pn" HorizontalAlignment="Left" Height="20" Margin="130,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,210,0,0" TextWrapping="Wrap" Text="Почтовый индекс" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="pc" HorizontalAlignment="Left" Height="20" Margin="130,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,250,0,0" TextWrapping="Wrap" Text="Адресс прописки" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="address" HorizontalAlignment="Left" Height="20" Margin="130,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,300,0,0" TextWrapping="Wrap" Text="Фактический адресс" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="addressl" HorizontalAlignment="Left" Height="20" Margin="130,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,340,0,0" TextWrapping="Wrap" Text="Профессия" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="job" HorizontalAlignment="Left" Height="20" Margin="130,340,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,390,0,0" TextWrapping="Wrap" Text="Название компании" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="company" HorizontalAlignment="Left" Height="20" Margin="130,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,430,0,0" TextWrapping="Wrap" Text="Номер телефона" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Height="20" Margin="130,430,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,470,0,0" TextWrapping="Wrap" Text="Электронная почта" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Height="20" Margin="130,470,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="10,510,0,0" TextWrapping="Wrap" Text="День рожденья" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <DatePicker x:Name="birth" HorizontalAlignment="Left" Height="22" Margin="130,510,0,0" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black" TextOptions.TextHintingMode="Fixed" />
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="10,550,0,0" TextWrapping="Wrap" Text="Выбрать изображение" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" IsEnabled="False"/>
+        <Button x:Name="imgExp" HorizontalAlignment="Left" Height="20" Margin="130,550,0,0" Content="Нажмите" VerticalAlignment="Top" Width="120" Background="White" BorderBrush="Black" Click="Img_Click"/>
+        <Button x:Name="Exit" HorizontalAlignment="Left" Height="20" Margin="10,590,0,0" VerticalAlignment="Top" Content="Назад" Width="70" Background="White" BorderBrush="Black" Click="Exit_Click"/>
+        <Button x:Name="Update" HorizontalAlignment="Left" Height="20" Margin="180,590,0,0" VerticalAlignment="Top" Width="70" Content="Загрузить" Background="White" BorderBrush="Black" Click="Update_Click"/>
+    </Grid>
+</Window>

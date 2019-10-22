@@ -1,0 +1,33 @@
+﻿<Window x:Class="MainWS.DriverExp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainWS"
+        mc:Ignorable="d"
+        Title="DriverExp" Height="450" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <DataGrid Name="DriverDG" AutoGenerateColumns="False" Margin="0,0,0,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding lname}" Width="150"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding fname}" Width="150"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding mname}" Width="150"/>
+                <DataGridTemplateColumn Header="Фото" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Height="100" Source="{Binding image}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DockPanel>
+            <Button x:Name="EditDriver" Content="Редектировать водителя"  HorizontalAlignment="Left" Margin="10,0,0,15" VerticalAlignment="Bottom" Width="auto" Click="EditDriver_Click"/>
+            <Button Click="LicOpen_Click" Name ="LicOpen"  Content="Лицензии" HorizontalAlignment="Left" Margin="10,0,0,15" VerticalAlignment="Bottom" Width="auto"/>
+            <Button Click="TicOpen_Click" Name ="TicOpen"  Content="Штрафы" HorizontalAlignment="Left" Margin="10,0,0,15" VerticalAlignment="Bottom" Width="auto"/>
+            <Button Click="Export_Click" x:Name ="Export"  Content="Отправить в CSV" HorizontalAlignment="Left" Margin="10,0,0,15" VerticalAlignment="Bottom" Width="auto"/>
+            <Button x:Name="Exit" Content="Выйти" HorizontalAlignment="Right" Margin="0,0,10,15" VerticalAlignment="Bottom" Width="75" Click="Exit_Click"/>
+            
+        </DockPanel>
+    </Grid>
+</Window>
